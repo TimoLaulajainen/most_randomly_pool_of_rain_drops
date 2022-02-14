@@ -1,0 +1,3 @@
+r=math.random
+f=.001t=time()function TIC()cls() f=f+.016 if f>1.7 then f=.01 end for x=0,240 do for y=0,136 do
+circb(r(28,133),r(61,75),r(0,5)/2,r(0,15))pix(r(x,x*r(2,4)),(r(y,y)/f),r(6,7))pix(x*1.15-f,y*1.12+f*2,r(0,15))if f<1 then print("HUmANE",29,61,0,0,r(0,3)) else print("<3BYTE",29,61,r(0,7),0,3)end for i=0,22 do poke4(2*65438+i,i*8)end poke(65437,(t*65536)%8+r(55,240))end end end
