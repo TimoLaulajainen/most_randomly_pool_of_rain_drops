@@ -1,0 +1,1 @@
+f=math.random	e=.001o=time()TIC=load'cls()e=e+.012if	e>1.7then	e=.01	end	for	n=0,240	do	for	d=0,136	do	circb(f(28,133),f(61,75),f(0,2),f(0,15))pix(f(n,n*f(2,4)),(f(d,d)/e),f(6,7))pix(n*1.15-e,d*1.1+e*2,f(0,15))if	e<1then	print("HUmANE",29,61,0,0,f(0,3))else	print("<3BYTE",29,61,f(0,3),0,3)end	for	i=0,22	do	poke4(2*65438+i,i*8)end	poke(65437,(o*65536)%8+f(55,240))end	end'
